@@ -1,7 +1,7 @@
 # cache-operator
 cache-operator provides simple caching method.
 
-It allows to cache the return values of a function depending on the arguments.
+Allows to cache the return values of a function depending on the arguments.
 It can save time when an I/O bound function is periodically called with the same arguments.
 
 
