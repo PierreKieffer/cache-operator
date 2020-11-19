@@ -1,4 +1,3 @@
-import time
 """
 cache_operator
 """
