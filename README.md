@@ -45,6 +45,7 @@ if __name__=="__main__":
     res = worker(1,2)
     print(res)
 
+    print("------------")
     print("Clean cache")                                                                                              
     worker(clean_cache=True)
 ```
@@ -57,6 +58,8 @@ computing ...
 ------------
 Second run
 2
+------------
+Clean cache
 
 ```
 
