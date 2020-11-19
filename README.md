@@ -1,9 +1,13 @@
 # cache-operator
+
+<p align="center">
+  <img src="logo.png">
+</p>
+
 cache-operator provides simple caching method.
 
 Allows to cache the return values of a function depending on the arguments.
 It can save time when an I/O bound function is periodically called with the same arguments.
-
 
 ## Install 
 ```bash
