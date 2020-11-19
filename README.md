@@ -17,6 +17,8 @@ from cache_operator import cache
 @cache
 def worker(*args, **kwargs): 
     pass
+
+# To clean cache for associated method, call the method with clean_cache=True
 ```
 
 Example:
@@ -40,6 +42,9 @@ if __name__=="__main__":
     print("Second run")
     res = worker(1,2)
     print(res)
+
+    print("Clean cache")                                                                                              
+    worker(clean_cache=True)
 ```
 
 Output : 
